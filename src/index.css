@@ -1,0 +1,83 @@
+.active {
+  padding: 10px;
+  margin: 10px;
+  background-color: brown;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none !important;
+}
+.me-auto .inactive {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+.grid-item {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  text-transform: capitalize;
+}
+.child-con {
+  margin: 10px;
+  padding: 10px;
+}
+.img-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-con {
+  height: fit-content !important;
+  width: 400px !important;
+  padding: 10px;
+  text-align: justify;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.add-input {
+  display: grid;
+  grid-template-columns: 13% 42% 25% 20%;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.child {
+  margin-right: 3px;
+}
+.Comp-input {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.top {
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-item {
+  margin-right: 15px;
+  cursor: pointer;
+  width: 40px;
+}
+.card-item {
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 10px;
+}
+@media only screen and (max-width: 720px) {
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
